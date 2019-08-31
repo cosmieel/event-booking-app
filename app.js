@@ -10,8 +10,6 @@ const app = express()
 
 const events = []
 
-// bLg1og33Mwe7ciUc
-
 app.use(bodyParser.json())
 
 app.use(
