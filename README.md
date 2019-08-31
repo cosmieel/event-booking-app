@@ -1,0 +1,1 @@
+Event Booking App (GraphQL, Node.js, MongoDB and React.js)
