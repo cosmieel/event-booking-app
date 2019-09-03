@@ -1,20 +1,23 @@
 {
   "name": "event-booking-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "",
+  "main": "index.js",
+  "author": "cosmieel",
+  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
     "graphql": "^14.5.4",
-    "mongoose": "^5.6.11",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.11"
   },
   "scripts": {
-    "start": "nodemon app.js "
+    "start": "nodemon app.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
-const Schema = mongoose.Schema;
+const Schema = mongoose.Schema
 
 const userSchema = new Schema({
   email: {
@@ -10,12 +10,12 @@ const userSchema = new Schema({
   password: {
     type: String,
     required: true,
-    select: false
+    // select: false
   },
   createdEvents: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'Event'                       // event.js: mongoose.model('Event')
+      ref: 'Event'
     }
   ]
 })
