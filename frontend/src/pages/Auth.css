@@ -4,37 +4,3 @@
   margin: 5rem auto;
 }
 
-.form-control {
-  margin-bottom: 1rem;
-}
-
-.form-control label {
-  margin-bottom: 0.5rem;
-}
-
-.form-control label,
-.form-control input {
-  width: 100%;
-  display: block;
-}
-
-.form-actions button {
-  background-color: #01d1d1;
-  font: inherit;
-  border: 1px solid #01d1d1;
-  border-radius: 3px;
-  padding: 0.25rem 1rem;
-  margin-right: 1rem;
-  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.3);
-  color: #ffffff;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.form-actions button:hover,
-.form-actions button:active {
-  background-color: #00afaf;
-  border-color: #00afaf;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
-}
-
